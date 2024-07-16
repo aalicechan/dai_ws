@@ -1,0 +1,17 @@
+[01m[K/home/mrg/dai_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:[m[K In member function ‘[01m[Kvoid depthai_ros_driver::Camera::setIR()[m[K’:
+[01m[K/home/mrg/dai_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:255:49:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+  255 |         device->setIrLaserDotProjectorIntensity([01;31m[Kfloat[m[K intensity);
+      |                                                 [01;31m[K^~~~~[m[K
+[01m[K/home/mrg/dai_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:256:42:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+  256 |         device->setIrFloodLightIntensity([01;31m[Kfloat[m[K intensity);
+      |                                          [01;31m[K^~~~~[m[K
+[01m[K/home/mrg/dai_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:[m[K In member function ‘[01m[Krcl_interfaces::msg::SetParametersResult depthai_ros_driver::Camera::parameterCB(const std::vector<rclcpp::Parameter>&)[m[K’:
+[01m[K/home/mrg/dai_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:264:57:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+  264 |                 device->setIrLaserDotProjectorIntensity([01;31m[Kfloat[m[K intensity);
+      |                                                         [01;31m[K^~~~~[m[K
+[01m[K/home/mrg/dai_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:266:50:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+  266 |                 device->setIrFloodLightIntensity([01;31m[Kfloat[m[K intensity);
+      |                                                  [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/depthai_ros_driver.dir/build.make:76: CMakeFiles/depthai_ros_driver.dir/src/camera.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:226: CMakeFiles/depthai_ros_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

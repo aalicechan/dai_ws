@@ -1,0 +1,35 @@
+[0.026s] Invoking command in '/home/mrg/dai_ws/build/depthai_ros_driver': AMENT_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_examples:/home/mrg/dai_ws/install/depthai_bridge:/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/dai_ws/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_examples:/home/mrg/dai_ws/install/depthai_bridge:/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/dai_ws/install/depthai_descriptions:/home/mrg/vrx_ws/install:/opt/ros/humble GAZEBO_MODEL_PATH=/home/mrg/dai_ws/install/depthai_descriptions GAZEBO_RESOURCE_PATH=/home/mrg/dai_ws/install/depthai_descriptions IGN_GAZEBO_MODEL_PATH=/home/mrg/dai_ws/install/depthai_descriptions IGN_GAZEBO_RESOURCE_PATH=/home/mrg/dai_ws/install/depthai_descriptions LD_LIBRARY_PATH=/home/mrg/dai_ws/install/depthai_bridge/lib:/home/mrg/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mrg/dai_ws/build/depthai_ros_driver -- -j16 -l16
+[0.119s] [35m[1mConsolidate compiler generated dependencies of target depthai_ros_driver_common[0m
+[0.129s] [  0%] Built target ament_cmake_python_symlink_depthai_ros_driver
+[0.190s] [ 42%] Built target depthai_ros_driver_common
+[0.214s] [35m[1mConsolidate compiler generated dependencies of target depthai_ros_driver_nn_nodes[0m
+[0.228s] [35m[1mConsolidate compiler generated dependencies of target depthai_ros_driver_sensor_nodes[0m
+[0.248s] [ 57%] Built target depthai_ros_driver_nn_nodes
+[0.306s] [ 84%] Built target depthai_ros_driver_sensor_nodes
+[0.325s] [35m[1mConsolidate compiler generated dependencies of target depthai_ros_driver[0m
+[0.369s] [ 88%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver.dir/src/camera.cpp.o[0m
+[0.382s] running egg_info
+[0.382s] writing depthai_ros_driver.egg-info/PKG-INFO
+[0.382s] writing dependency_links to depthai_ros_driver.egg-info/dependency_links.txt
+[0.383s] writing top-level names to depthai_ros_driver.egg-info/top_level.txt
+[0.384s] reading manifest file 'depthai_ros_driver.egg-info/SOURCES.txt'
+[0.384s] writing manifest file 'depthai_ros_driver.egg-info/SOURCES.txt'
+[0.416s] [ 88%] Built target ament_cmake_python_build_depthai_ros_driver_egg
+[4.541s] [01m[K/home/mrg/dai_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:[m[K In member function ‘[01m[Kvoid depthai_ros_driver::Camera::setIR()[m[K’:
+[4.542s] [01m[K/home/mrg/dai_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:255:49:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[4.542s]   255 |         device->setIrLaserDotProjectorIntensity([01;31m[Kfloat[m[K intensity);
+[4.542s]       |                                                 [01;31m[K^~~~~[m[K
+[4.542s] [01m[K/home/mrg/dai_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:256:42:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[4.542s]   256 |         device->setIrFloodLightIntensity([01;31m[Kfloat[m[K intensity);
+[4.542s]       |                                          [01;31m[K^~~~~[m[K
+[4.543s] [01m[K/home/mrg/dai_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:[m[K In member function ‘[01m[Krcl_interfaces::msg::SetParametersResult depthai_ros_driver::Camera::parameterCB(const std::vector<rclcpp::Parameter>&)[m[K’:
+[4.543s] [01m[K/home/mrg/dai_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:264:57:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[4.543s]   264 |                 device->setIrLaserDotProjectorIntensity([01;31m[Kfloat[m[K intensity);
+[4.543s]       |                                                         [01;31m[K^~~~~[m[K
+[4.543s] [01m[K/home/mrg/dai_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:266:50:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[4.544s]   266 |                 device->setIrFloodLightIntensity([01;31m[Kfloat[m[K intensity);
+[4.544s]       |                                                  [01;31m[K^~~~~[m[K
+[8.409s] gmake[2]: *** [CMakeFiles/depthai_ros_driver.dir/build.make:76: CMakeFiles/depthai_ros_driver.dir/src/camera.cpp.o] Error 1
+[8.410s] gmake[1]: *** [CMakeFiles/Makefile2:226: CMakeFiles/depthai_ros_driver.dir/all] Error 2
+[8.410s] gmake: *** [Makefile:146: all] Error 2
+[8.414s] Invoked command in '/home/mrg/dai_ws/build/depthai_ros_driver' returned '2': AMENT_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_examples:/home/mrg/dai_ws/install/depthai_bridge:/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/dai_ws/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_examples:/home/mrg/dai_ws/install/depthai_bridge:/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/dai_ws/install/depthai_descriptions:/home/mrg/vrx_ws/install:/opt/ros/humble GAZEBO_MODEL_PATH=/home/mrg/dai_ws/install/depthai_descriptions GAZEBO_RESOURCE_PATH=/home/mrg/dai_ws/install/depthai_descriptions IGN_GAZEBO_MODEL_PATH=/home/mrg/dai_ws/install/depthai_descriptions IGN_GAZEBO_RESOURCE_PATH=/home/mrg/dai_ws/install/depthai_descriptions LD_LIBRARY_PATH=/home/mrg/dai_ws/install/depthai_bridge/lib:/home/mrg/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mrg/dai_ws/build/depthai_ros_driver -- -j16 -l16

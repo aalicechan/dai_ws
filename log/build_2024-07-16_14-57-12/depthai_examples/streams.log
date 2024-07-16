@@ -1,0 +1,71 @@
+[0.028s] Invoking command in '/home/mrg/dai_ws/build/depthai_examples': AMENT_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_bridge:/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/dai_ws/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_bridge:/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/dai_ws/install/depthai_descriptions:/home/mrg/vrx_ws/install:/opt/ros/humble GAZEBO_MODEL_PATH=/home/mrg/dai_ws/install/depthai_descriptions GAZEBO_RESOURCE_PATH=/home/mrg/dai_ws/install/depthai_descriptions IGN_GAZEBO_MODEL_PATH=/home/mrg/dai_ws/install/depthai_descriptions IGN_GAZEBO_RESOURCE_PATH=/home/mrg/dai_ws/install/depthai_descriptions LD_LIBRARY_PATH=/home/mrg/dai_ws/install/depthai_bridge/lib:/home/mrg/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mrg/dai_ws/build/depthai_examples -- -j16 -l16
+[0.096s] [35m[1mConsolidate compiler generated dependencies of target stereo_inertial_node[0m
+[0.100s] [35m[1mConsolidate compiler generated dependencies of target rgb_stereo_node[0m
+[0.111s] [ 10%] Built target stereo_node
+[0.115s] [ 20%] Built target tracker_yolov4_spatial_node
+[0.122s] [ 30%] Built target tracker_yolov4_node
+[0.124s] [ 50%] Built target crop_control_service
+[0.124s] [ 50%] Built target feature_tracker
+[0.126s] [ 60%] [32mBuilding CXX object CMakeFiles/stereo_inertial_node.dir/src/stereo_inertial_publisher.cpp.o[0m
+[0.126s] [ 65%] Built target yolov4_node
+[0.127s] [ 85%] Built target mobilenet_node
+[0.127s] [ 85%] Built target yolov4_spatial_node
+[0.130s] [ 90%] [32mBuilding CXX object CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o[0m
+[8.815s] [ 95%] [32m[1mLinking CXX executable rgb_stereo_node[0m
+[9.573s] [ 95%] Built target rgb_stereo_node
+[12.656s] [100%] [32m[1mLinking CXX executable stereo_inertial_node[0m
+[13.537s] [100%] Built target stereo_inertial_node
+[13.569s] Invoked command in '/home/mrg/dai_ws/build/depthai_examples' returned '0': AMENT_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_bridge:/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/dai_ws/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_bridge:/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/dai_ws/install/depthai_descriptions:/home/mrg/vrx_ws/install:/opt/ros/humble GAZEBO_MODEL_PATH=/home/mrg/dai_ws/install/depthai_descriptions GAZEBO_RESOURCE_PATH=/home/mrg/dai_ws/install/depthai_descriptions IGN_GAZEBO_MODEL_PATH=/home/mrg/dai_ws/install/depthai_descriptions IGN_GAZEBO_RESOURCE_PATH=/home/mrg/dai_ws/install/depthai_descriptions LD_LIBRARY_PATH=/home/mrg/dai_ws/install/depthai_bridge/lib:/home/mrg/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mrg/dai_ws/build/depthai_examples -- -j16 -l16
+[13.708s] Invoking command in '/home/mrg/dai_ws/build/depthai_examples': AMENT_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_bridge:/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/dai_ws/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_bridge:/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/dai_ws/install/depthai_descriptions:/home/mrg/vrx_ws/install:/opt/ros/humble GAZEBO_MODEL_PATH=/home/mrg/dai_ws/install/depthai_descriptions GAZEBO_RESOURCE_PATH=/home/mrg/dai_ws/install/depthai_descriptions IGN_GAZEBO_MODEL_PATH=/home/mrg/dai_ws/install/depthai_descriptions IGN_GAZEBO_RESOURCE_PATH=/home/mrg/dai_ws/install/depthai_descriptions LD_LIBRARY_PATH=/home/mrg/dai_ws/install/depthai_bridge/lib:/home/mrg/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mrg/dai_ws/build/depthai_examples
+[13.727s] -- Install configuration: ""
+[13.728s] -- Execute custom install script
+[13.729s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/params/camera/color.yaml
+[13.729s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/params/camera/left.yaml
+[13.730s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/params/camera/right.yaml
+[13.732s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/rviz/pointCloud.rviz
+[13.732s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/rviz/rgb_camera.rviz
+[13.732s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertial.rviz
+[13.733s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertialDepthAlign.rviz
+[13.733s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertialDepthAlignROS2.rviz
+[13.734s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertialROS1.rviz
+[13.734s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereoPointCloud.rviz
+[13.734s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereoPointCloud_v1.rviz
+[13.735s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereo_config.rviz
+[13.735s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereo_nodelet.rviz
+[13.736s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/resources/deeplab_v3_plus_mnv2_decoder_256_openvino_2021.4.blob
+[13.737s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/resources/mobilenet-ssd_openvino_2021.2_6shave.blob
+[13.737s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/resources/yolov4_tiny_coco_416x416_openvino_2021.4_6shave_bgr.blob
+[13.738s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/lib/depthai_examples/crop_control_service
+[13.739s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/lib/depthai_examples/mobilenet_node
+[13.739s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/lib/depthai_examples/rgb_stereo_node
+[13.740s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/lib/depthai_examples/stereo_inertial_node
+[13.740s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/lib/depthai_examples/stereo_node
+[13.740s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/lib/depthai_examples/yolov4_spatial_node
+[13.741s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/lib/depthai_examples/yolov4_node
+[13.741s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/lib/depthai_examples/feature_tracker
+[13.742s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/lib/depthai_examples/tracker_yolov4_node
+[13.743s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/lib/depthai_examples/tracker_yolov4_spatial_node
+[13.743s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/ament_index/resource_index/package_run_dependencies/depthai_examples
+[13.744s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/ament_index/resource_index/parent_prefix_path/depthai_examples
+[13.744s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/environment/ament_prefix_path.sh
+[13.745s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/environment/ament_prefix_path.dsv
+[13.745s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/environment/path.sh
+[13.746s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/environment/path.dsv
+[13.746s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/local_setup.bash
+[13.746s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/local_setup.sh
+[13.747s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/local_setup.zsh
+[13.748s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/local_setup.dsv
+[13.748s] -- Symlinking: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/package.dsv
+[13.772s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/ament_index/resource_index/packages/depthai_examples
+[13.773s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/cmake/depthai_examplesConfig.cmake
+[13.773s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/cmake/depthai_examplesConfig-version.cmake
+[13.773s] -- Up-to-date symlink: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/package.xml
+[13.773s] -- Up-to-date: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/launch
+[13.774s] -- Up-to-date: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/launch/tracker_yolov4_node.launch.py
+[13.774s] -- Up-to-date: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/launch/yolov4_publisher.launch.py
+[13.774s] -- Up-to-date: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/launch/mobile_publisher.launch.py
+[13.774s] -- Up-to-date: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/launch/stereo_inertial_node.launch.py
+[13.774s] -- Up-to-date: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/launch/rgb_stereo_node.launch.py
+[13.774s] -- Up-to-date: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/launch/stereo.launch.py
+[13.774s] -- Up-to-date: /home/mrg/dai_ws/install/depthai_examples/share/depthai_examples/launch/tracker_yolov4_spatial_node.launch.py
+[13.777s] Invoked command in '/home/mrg/dai_ws/build/depthai_examples' returned '0': AMENT_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_bridge:/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/dai_ws/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_bridge:/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/dai_ws/install/depthai_descriptions:/home/mrg/vrx_ws/install:/opt/ros/humble GAZEBO_MODEL_PATH=/home/mrg/dai_ws/install/depthai_descriptions GAZEBO_RESOURCE_PATH=/home/mrg/dai_ws/install/depthai_descriptions IGN_GAZEBO_MODEL_PATH=/home/mrg/dai_ws/install/depthai_descriptions IGN_GAZEBO_RESOURCE_PATH=/home/mrg/dai_ws/install/depthai_descriptions LD_LIBRARY_PATH=/home/mrg/dai_ws/install/depthai_bridge/lib:/home/mrg/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mrg/dai_ws/build/depthai_examples

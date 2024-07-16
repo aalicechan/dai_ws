@@ -1,0 +1,42 @@
+[0.025s] Invoking command in '/home/mrg/dai_ws/build/depthai_examples': AMENT_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_bridge:/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/dai_ws/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_bridge:/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/dai_ws/install/depthai_descriptions:/home/mrg/vrx_ws/install:/opt/ros/humble GAZEBO_MODEL_PATH=/home/mrg/dai_ws/install/depthai_descriptions GAZEBO_RESOURCE_PATH=/home/mrg/dai_ws/install/depthai_descriptions IGN_GAZEBO_MODEL_PATH=/home/mrg/dai_ws/install/depthai_descriptions IGN_GAZEBO_RESOURCE_PATH=/home/mrg/dai_ws/install/depthai_descriptions LD_LIBRARY_PATH=/home/mrg/dai_ws/install/depthai_bridge/lib:/home/mrg/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mrg/dai_ws/build/depthai_examples -- -j16 -l16
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target yolov4_node[0m
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target tracker_yolov4_node[0m
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target yolov4_spatial_node[0m
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target tracker_yolov4_spatial_node[0m
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target stereo_inertial_node[0m
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target feature_tracker[0m
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target mobilenet_node[0m
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target crop_control_service[0m
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target rgb_stereo_node[0m
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target stereo_node[0m
+[0.103s] [ 10%] Built target tracker_yolov4_node
+[0.103s] [ 20%] Built target yolov4_node
+[0.103s] [ 30%] Built target tracker_yolov4_spatial_node
+[0.105s] [ 40%] Built target yolov4_spatial_node
+[0.110s] [ 55%] Built target feature_tracker
+[0.110s] [ 60%] Built target crop_control_service
+[0.110s] [ 75%] [32mBuilding CXX object CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o[0m
+[0.110s] [ 80%] [32mBuilding CXX object CMakeFiles/stereo_inertial_node.dir/src/stereo_inertial_publisher.cpp.o[0m
+[0.110s] [ 80%] Built target mobilenet_node
+[0.113s] [ 90%] Built target stereo_node
+[4.071s] [01m[K/home/mrg/dai_ws/src/depthai-ros/depthai_examples/src/rgb_stereo_node.cpp:[m[K In lambda function:
+[4.071s] [01m[K/home/mrg/dai_ws/src/depthai-ros/depthai_examples/src/rgb_stereo_node.cpp:233:52:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[4.071s]   233 |             device.setIrLaserDotProjectorIntensity([01;31m[Kfloat[m[K intensity);
+[4.072s]       |                                                    [01;31m[K^~~~~[m[K
+[4.072s] [01m[K/home/mrg/dai_ws/src/depthai-ros/depthai_examples/src/rgb_stereo_node.cpp:239:45:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[4.072s]   239 |             device.setIrFloodLightIntensity([01;31m[Kfloat[m[K intensity);
+[4.072s]       |                                             [01;31m[K^~~~~[m[K
+[5.795s] [01m[K/home/mrg/dai_ws/src/depthai-ros/depthai_examples/src/stereo_inertial_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.795s] [01m[K/home/mrg/dai_ws/src/depthai-ros/depthai_examples/src/stereo_inertial_publisher.cpp:488:53:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[5.795s]   488 |             device->setIrLaserDotProjectorIntensity([01;31m[Kfloat[m[K intensity);
+[5.796s]       |                                                     [01;31m[K^~~~~[m[K
+[5.796s] [01m[K/home/mrg/dai_ws/src/depthai-ros/depthai_examples/src/stereo_inertial_publisher.cpp:492:47:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[5.796s]   492 |             device->setIrFloodLightBrightness([01;31m[Kfloat[m[K intensity);
+[5.796s]       |                                               [01;31m[K^~~~~[m[K
+[6.418s] gmake[2]: *** [CMakeFiles/rgb_stereo_node.dir/build.make:76: CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o] Error 1
+[6.419s] gmake[1]: *** [CMakeFiles/Makefile2:207: CMakeFiles/rgb_stereo_node.dir/all] Error 2
+[6.419s] gmake[1]: *** Waiting for unfinished jobs....
+[8.946s] gmake[2]: *** [CMakeFiles/stereo_inertial_node.dir/build.make:76: CMakeFiles/stereo_inertial_node.dir/src/stereo_inertial_publisher.cpp.o] Error 1
+[8.946s] gmake[1]: *** [CMakeFiles/Makefile2:233: CMakeFiles/stereo_inertial_node.dir/all] Error 2
+[8.946s] gmake: *** [Makefile:146: all] Error 2
+[8.951s] Invoked command in '/home/mrg/dai_ws/build/depthai_examples' returned '2': AMENT_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_bridge:/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/dai_ws/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_bridge:/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/dai_ws/install/depthai_descriptions:/home/mrg/vrx_ws/install:/opt/ros/humble GAZEBO_MODEL_PATH=/home/mrg/dai_ws/install/depthai_descriptions GAZEBO_RESOURCE_PATH=/home/mrg/dai_ws/install/depthai_descriptions IGN_GAZEBO_MODEL_PATH=/home/mrg/dai_ws/install/depthai_descriptions IGN_GAZEBO_RESOURCE_PATH=/home/mrg/dai_ws/install/depthai_descriptions LD_LIBRARY_PATH=/home/mrg/dai_ws/install/depthai_bridge/lib:/home/mrg/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mrg/dai_ws/build/depthai_examples -- -j16 -l16

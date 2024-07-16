@@ -1,0 +1,87 @@
+[0.012s] Invoking command in '/home/mrg/dai_ws/build/depthai_filters': AMENT_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/vrx_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mrg/dai_ws/src/depthai-ros/depthai_filters -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mrg/dai_ws/install/depthai_filters
+[0.081s] -- The CXX compiler identification is GNU 11.4.0
+[0.129s] -- The C compiler identification is GNU 11.4.0
+[0.137s] -- Detecting CXX compiler ABI info
+[0.235s] -- Detecting CXX compiler ABI info - done
+[0.242s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.242s] -- Detecting CXX compile features
+[0.242s] -- Detecting CXX compile features - done
+[0.245s] -- Detecting C compiler ABI info
+[0.319s] -- Detecting C compiler ABI info - done
+[0.326s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.326s] -- Detecting C compile features
+[0.327s] -- Detecting C compile features - done
+[0.329s] -- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.479s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.532s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.687s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.693s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.701s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.715s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.733s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.977s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.979s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.102s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.147s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.214s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.228s] -- Looking for pthread.h
+[1.312s] -- Looking for pthread.h - found
+[1.312s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.394s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.395s] -- Found Threads: TRUE  
+[1.959s] -- Configuring done
+[1.978s] -- Generating done
+[1.979s] -- Build files have been written to: /home/mrg/dai_ws/build/depthai_filters
+[1.990s] Invoked command in '/home/mrg/dai_ws/build/depthai_filters' returned '0': AMENT_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/vrx_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mrg/dai_ws/src/depthai-ros/depthai_filters -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mrg/dai_ws/install/depthai_filters
+[1.993s] Invoking command in '/home/mrg/dai_ws/build/depthai_filters': AMENT_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/vrx_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mrg/dai_ws/build/depthai_filters -- -j16 -l16
+[2.086s] [ 12%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/feature_tracker_overlay.cpp.o[0m
+[2.087s] [ 25%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/segmentation_overlay.cpp.o[0m
+[2.091s] [ 50%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/detection2d_overlay.cpp.o[0m
+[2.092s] [ 50%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/spatial_bb.cpp.o[0m
+[2.093s] [ 62%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/features_3d.cpp.o[0m
+[2.096s] [ 75%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/wls_filter.cpp.o[0m
+[2.096s] [ 87%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/utils.cpp.o[0m
+[27.929s] [100%] [32m[1mLinking CXX shared library libdepthai_filters.so[0m
+[31.396s] [100%] Built target depthai_filters
+[31.426s] Invoked command in '/home/mrg/dai_ws/build/depthai_filters' returned '0': AMENT_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/vrx_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mrg/dai_ws/build/depthai_filters -- -j16 -l16
+[31.498s] Invoking command in '/home/mrg/dai_ws/build/depthai_filters': AMENT_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/vrx_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mrg/dai_ws/build/depthai_filters
+[31.506s] -- Install configuration: ""
+[31.506s] -- Execute custom install script
+[31.507s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/launch/det2d_usb_cam_overlay.launch.py
+[31.528s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/launch/example_det2d_overlay.launch.py
+[31.549s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/launch/example_feature_3d.launch.py
+[31.569s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/launch/example_feature_tracker.launch.py
+[31.580s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/launch/example_seg_overlay.launch.py
+[31.601s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/launch/example_wls_filter.launch.py
+[31.622s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/launch/spatial_bb.launch.py
+[31.633s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/config/detection.yaml
+[31.654s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/config/feature_tracker.yaml
+[31.665s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/config/spatial_bb.yaml
+[31.686s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/config/usb_cam_overlay.yaml
+[31.696s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/config/wls.yaml
+[31.706s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/lib/libdepthai_filters.so
+[31.729s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/include/depthai_filters/detection2d_overlay.hpp
+[31.738s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/include/depthai_filters/feature_tracker_overlay.hpp
+[31.759s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/include/depthai_filters/features_3d.hpp
+[31.776s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/include/depthai_filters/segmentation_overlay.hpp
+[31.798s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/include/depthai_filters/spatial_bb.hpp
+[31.819s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/include/depthai_filters/utils.hpp
+[31.841s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/include/depthai_filters/wls_filter.hpp
+[31.859s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/ament_index/resource_index/package_run_dependencies/depthai_filters
+[31.869s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/ament_index/resource_index/parent_prefix_path/depthai_filters
+[31.890s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/environment/ament_prefix_path.sh
+[31.901s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/environment/ament_prefix_path.dsv
+[31.922s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/environment/path.sh
+[31.945s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/environment/path.dsv
+[31.968s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/local_setup.bash
+[31.987s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/local_setup.sh
+[32.010s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/local_setup.zsh
+[32.031s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/local_setup.dsv
+[32.053s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/package.dsv
+[32.062s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/ament_index/resource_index/packages/depthai_filters
+[32.083s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/ament_index/resource_index/rclcpp_components/depthai_filters
+[32.093s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.102s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/cmake/depthai_filtersConfig.cmake
+[32.112s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/cmake/depthai_filtersConfig-version.cmake
+[32.133s] -- Symlinking: /home/mrg/dai_ws/install/depthai_filters/share/depthai_filters/package.xml
+[32.157s] Invoked command in '/home/mrg/dai_ws/build/depthai_filters' returned '0': AMENT_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/vrx_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mrg/dai_ws/build/depthai_filters

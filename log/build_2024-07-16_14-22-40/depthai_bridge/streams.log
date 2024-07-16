@@ -1,0 +1,105 @@
+[0.011s] Invoking command in '/home/mrg/dai_ws/build/depthai_bridge': AMENT_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/vrx_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mrg/dai_ws/src/depthai-ros/depthai_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mrg/dai_ws/install/depthai_bridge
+[0.087s] -- The CXX compiler identification is GNU 11.4.0
+[0.134s] -- The C compiler identification is GNU 11.4.0
+[0.143s] -- Detecting CXX compiler ABI info
+[0.238s] -- Detecting CXX compiler ABI info - done
+[0.245s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.245s] -- Detecting CXX compile features
+[0.246s] -- Detecting CXX compile features - done
+[0.249s] -- Detecting C compiler ABI info
+[0.324s] -- Detecting C compiler ABI info - done
+[0.331s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.331s] -- Detecting C compile features
+[0.331s] -- Detecting C compile features - done
+[0.338s] -- ------------------------------------------
+[0.339s] -- Depthai Bridge is being built using AMENT.
+[0.339s] -- ------------------------------------------
+[0.340s] -- Found camera_info_manager: 3.1.9 (/opt/ros/humble/share/camera_info_manager/cmake)
+[0.504s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.556s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.633s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.638s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.647s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.660s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.678s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.742s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.744s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.893s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.928s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.992s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.001s] -- Looking for pthread.h
+[1.079s] -- Looking for pthread.h - found
+[1.079s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.163s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.164s] -- Found Threads: TRUE  
+[1.488s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.491s] -- Found depthai_ros_msgs: 2.9.0 (/home/mrg/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake)
+[1.685s] -- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)
+[1.733s] -- Found stereo_msgs: 4.2.4 (/opt/ros/humble/share/stereo_msgs/cmake)
+[1.807s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.111s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.129s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.130s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.130s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.142s] -- --------------------------humble ---
+[2.142s] -- humble
+[2.214s] -- Configuring done
+[2.234s] -- Generating done
+[2.236s] -- Build files have been written to: /home/mrg/dai_ws/build/depthai_bridge
+[2.253s] Invoked command in '/home/mrg/dai_ws/build/depthai_bridge' returned '0': AMENT_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/vrx_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mrg/dai_ws/src/depthai-ros/depthai_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mrg/dai_ws/install/depthai_bridge
+[2.255s] Invoking command in '/home/mrg/dai_ws/build/depthai_bridge': AMENT_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/vrx_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mrg/dai_ws/build/depthai_bridge -- -j16 -l16
+[2.324s] [ 20%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/DisparityConverter.cpp.o[0m
+[2.324s] [ 20%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/ImgDetectionConverter.cpp.o[0m
+[2.326s] [ 30%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/TFPublisher.cpp.o[0m
+[2.327s] [ 60%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/SpatialDetectionConverter.cpp.o[0m
+[2.327s] [ 60%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/ImuConverter.cpp.o[0m
+[2.327s] [ 60%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/TrackSpatialDetectionConverter.cpp.o[0m
+[2.327s] [ 70%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/ImageConverter.cpp.o[0m
+[2.327s] [ 90%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o[0m
+[2.327s] [ 90%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/TrackDetectionConverter.cpp.o[0m
+[21.404s] [100%] [32m[1mLinking CXX shared library libdepthai_bridge.so[0m
+[22.300s] [100%] Built target depthai_bridge
+[22.319s] Invoked command in '/home/mrg/dai_ws/build/depthai_bridge' returned '0': AMENT_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/vrx_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mrg/dai_ws/build/depthai_bridge -- -j16 -l16
+[22.409s] Invoking command in '/home/mrg/dai_ws/build/depthai_bridge': AMENT_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/vrx_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mrg/dai_ws/build/depthai_bridge
+[22.419s] -- Install configuration: ""
+[22.420s] -- Execute custom install script
+[22.420s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/share/depthai_bridge/environment/library_path.sh
+[22.444s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/share/depthai_bridge/environment/library_path.dsv
+[22.467s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/include//depthai_bridge/BridgePublisher.hpp
+[22.490s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/include//depthai_bridge/DisparityConverter.hpp
+[22.513s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/include//depthai_bridge/ImageConverter.hpp
+[22.536s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/include//depthai_bridge/ImgDetectionConverter.hpp
+[22.559s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/include//depthai_bridge/ImuConverter.hpp
+[22.581s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/include//depthai_bridge/SpatialDetectionConverter.hpp
+[22.605s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/include//depthai_bridge/TFPublisher.hpp
+[22.629s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/include//depthai_bridge/TrackDetectionConverter.hpp
+[22.651s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/include//depthai_bridge/TrackSpatialDetectionConverter.hpp
+[22.675s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/include//depthai_bridge/TrackedFeaturesConverter.hpp
+[22.697s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/include//depthai_bridge/depthaiUtility.hpp
+[22.721s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/share/depthai_bridge/rviz/pointCloud.rviz
+[22.744s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/share/ament_index/resource_index/package_run_dependencies/depthai_bridge
+[22.768s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/share/ament_index/resource_index/parent_prefix_path/depthai_bridge
+[22.789s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/share/depthai_bridge/environment/ament_prefix_path.sh
+[22.811s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/share/depthai_bridge/environment/ament_prefix_path.dsv
+[22.833s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/share/depthai_bridge/environment/path.sh
+[22.853s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/share/depthai_bridge/environment/path.dsv
+[22.875s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/share/depthai_bridge/local_setup.bash
+[22.897s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/share/depthai_bridge/local_setup.sh
+[22.917s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/share/depthai_bridge/local_setup.zsh
+[22.939s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/share/depthai_bridge/local_setup.dsv
+[22.961s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/share/depthai_bridge/package.dsv
+[22.981s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/share/ament_index/resource_index/packages/depthai_bridge
+[23.004s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/share/depthai_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[23.024s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/share/depthai_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.047s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/share/depthai_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+[23.067s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/share/depthai_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.087s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeConfig.cmake
+[23.109s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeConfig-version.cmake
+[23.129s] -- Symlinking: /home/mrg/dai_ws/install/depthai_bridge/share/depthai_bridge/package.xml
+[23.152s] -- Installing: /home/mrg/dai_ws/install/depthai_bridge/lib/libdepthai_bridge.so
+[23.160s] -- Set runtime path of "/home/mrg/dai_ws/install/depthai_bridge/lib/libdepthai_bridge.so" to ""
+[23.160s] -- Installing: /home/mrg/dai_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeTargets.cmake
+[23.161s] -- Installing: /home/mrg/dai_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeTargets-noconfig.cmake
+[23.161s] -- Installing: /home/mrg/dai_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeTargetsExport.cmake
+[23.161s] -- Installing: /home/mrg/dai_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeTargetsExport-noconfig.cmake
+[23.166s] Invoked command in '/home/mrg/dai_ws/build/depthai_bridge' returned '0': AMENT_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs:/home/mrg/vrx_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/mrg/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mrg/dai_ws/build/depthai_bridge

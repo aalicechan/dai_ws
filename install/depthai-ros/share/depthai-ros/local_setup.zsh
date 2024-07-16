@@ -1,0 +1,1 @@
+/home/mrg/dai_ws/build/depthai-ros/ament_cmake_environment_hooks/local_setup.zsh
